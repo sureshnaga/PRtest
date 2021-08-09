@@ -1,8 +1,5 @@
 @Library(value="terraform-sharedlibrary@dev",changelog=false) _
 def details = [:]
-
 details.reponame="iac-Ec2"
-
 details.account="wureachprod"
-
 codecheck(details)
